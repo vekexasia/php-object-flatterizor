@@ -36,10 +36,12 @@ As you would probably notice, the object has an intentionally heavy nesting leve
 
 The library will provide you a list of "__path__" + "__values__" . For the path in the example the library will generate something like this:
 	
-	array(
-		'path'	=> '/b/[1]/nested/[yes]/[i]',
-		'val'	=> 'am'
-	)
+	[1]=> array(2) {
+      ["path"]=>
+      	string(23) "/b/[1]/[nested]/yes/[i]"
+      ["val"]=>
+      	string(2) "am"
+    }
 
 In this way you could use the path as "key" and you could fetch all the objects that at that key have a specific val.
 
