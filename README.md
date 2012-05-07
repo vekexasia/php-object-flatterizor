@@ -46,3 +46,8 @@ The library will provide you a list of "__path__" + "__values__" . For the path 
 In this way you could use the path as "key" and you could fetch all the objects that at that key have a specific val.
 
 I suggest to take a look to the _demo/_ folder which contains demo(s) on __how to use__ the lbirary.
+
+Authors
+=======
+*  Andrea Baccega <me@andreabaccega.com> - _Author/Ideator of the library_
+*  Emanuele 'Tex' Tessore <setola@gmail.com> - _Contributor of the library_
